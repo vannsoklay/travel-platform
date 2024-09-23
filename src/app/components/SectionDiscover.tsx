@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion";
-import { Avatar, Button, Image } from "@nextui-org/react";
 
 export const SectionDiscover = () => {
     const images = [

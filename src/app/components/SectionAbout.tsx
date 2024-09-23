@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion";
-import { Avatar, Button, Image } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 
 export const SectionAboutUs = () => {
     const images = [
