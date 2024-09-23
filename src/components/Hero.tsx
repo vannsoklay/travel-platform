@@ -2,7 +2,7 @@ import { Button } from "@nextui-org/react"
 import { useState } from "react";
 
 export const Hero = () => {
-    const [scrollY, setScrollY] = useState(0);
+    const [scrollY] = useState(0);
     return (
         <section className="relative min-h-screen flex flex-col items-center justify-center">
             <div

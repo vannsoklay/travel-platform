@@ -4,28 +4,28 @@ import { motion } from "framer-motion";
 import { Button } from "@nextui-org/react";
 
 export const SectionAboutUs = () => {
-    const images = [
-        {
-            src: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&h=400&fit=crop",
-            alt: "Mountain landscape",
-            name: "Mountains"
-        },
-        {
-            src: "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=600&h=400&fit=crop",
-            alt: "Forest path",
-            name: "Forests"
-        },
-        {
-            src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&h=400&fit=crop",
-            alt: "Beach sunset",
-            name: "Beaches"
-        },
-        {
-            src: "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=600&h=400&fit=crop",
-            alt: "City skyline",
-            name: "Cities"
-        }
-    ]
+    // const images = [
+    //     {
+    //         src: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&h=400&fit=crop",
+    //         alt: "Mountain landscape",
+    //         name: "Mountains"
+    //     },
+    //     {
+    //         src: "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=600&h=400&fit=crop",
+    //         alt: "Forest path",
+    //         name: "Forests"
+    //     },
+    //     {
+    //         src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&h=400&fit=crop",
+    //         alt: "Beach sunset",
+    //         name: "Beaches"
+    //     },
+    //     {
+    //         src: "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=600&h=400&fit=crop",
+    //         alt: "City skyline",
+    //         name: "Cities"
+    //     }
+    // ]
     return (
         <section className="relative overflow-hidden">
             <div
